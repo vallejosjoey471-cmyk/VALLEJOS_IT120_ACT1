@@ -236,3 +236,26 @@ $ git commit -m "insert Background infos"
 fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
 $ git checkout VALLEJOS_B2 -- Readme.txt
 
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git rm Test.py
+rm 'Test.py'
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git commit -m "remove Test.py"
+[VALLEJOS_B3 3365ec7] remove Test.py
+ 2 files changed, 210 insertions(+), 2 deletions(-)
+ delete mode 100644 Test.py
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git add Readme.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git commit -m "insert Branch3 commands"
+[VALLEJOS_B3 bb7e74c] insert Branch3 commands
+ 1 file changed, 28 insertions(+)
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git status
+On branch VALLEJOS_B3
+nothing to commit, working tree clean
+
