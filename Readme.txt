@@ -279,4 +279,12 @@ $ git commit -m "remove Test.py"
  2 files changed, 261 insertions(+), 2 deletions(-)
  delete mode 100644 Test.py
 
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B4)
+$ git add Readme.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B4)
+$ git commit -m "insert Branch4 commands"
+[VALLEJOS_B4 34e0065] insert Branch4 commands
+ 1 file changed, 21 insertions(+)
+
 
