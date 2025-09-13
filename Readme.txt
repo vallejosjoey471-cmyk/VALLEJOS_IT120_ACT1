@@ -259,3 +259,24 @@ $ git status
 On branch VALLEJOS_B3
 nothing to commit, working tree clean
 
+
+- BRANCH 4
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git checkout VALLEJOS_B4
+Switched to branch 'VALLEJOS_B4'
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B4)
+$ git checkout VALLEJOS_B3 -- Readme.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B4)
+$ git rm Test.py
+rm 'Test.py'
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B4)
+$ git commit -m "remove Test.py"
+[VALLEJOS_B4 5ee6328] remove Test.py
+ 2 files changed, 261 insertions(+), 2 deletions(-)
+ delete mode 100644 Test.py
+
+
