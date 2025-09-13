@@ -187,3 +187,24 @@ $ git commit -m "insert Education infos"
 fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B2)
 $ git checkout VALLEJOS_B1 -- Readme.txt
 
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B2)
+$ git status
+On branch VALLEJOS_B2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Readme.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Readme.txt
+
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B2)
+$ git add Readme.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B2)
+$ git commit -m "insert Branch2 commands"
+[VALLEJOS_B2 3e401e1] insert Branch2 commands
+ 1 file changed, 189 insertions(+)
+
