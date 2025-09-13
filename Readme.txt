@@ -208,3 +208,31 @@ $ git commit -m "insert Branch2 commands"
 [VALLEJOS_B2 3e401e1] insert Branch2 commands
  1 file changed, 189 insertions(+)
 
+
+- BRANCH 3
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B2)
+$ git checkout VALLEJOS_B3
+Switched to branch 'VALLEJOS_B3'
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git status
+On branch VALLEJOS_B3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Background.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git add Background.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git commit -m "insert Background infos"
+[VALLEJOS_B3 63bde04] insert Background infos
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B3)
+$ git checkout VALLEJOS_B2 -- Readme.txt
+
