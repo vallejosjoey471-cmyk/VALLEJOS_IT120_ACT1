@@ -2,3 +2,6 @@ Elementary School: Jose R Magno Elementary School
 Year Graduated: 2013-2014
 High School: Agay National High School
 Year Graduated: 2018-2019
+College: Caraga State University Cabadbaran Campus
+Program: Bachelor of Science in Information Technology
+Year Level: 3rd Year
