@@ -5,3 +5,9 @@ Gender: Female
 Age: 24
 Birthday: January 7, 2001
 Contacts: 09639158472
+Birth Of Place: P-6 Brgy. Sto.Nino, Butuan City
+Religion: Roman Catholic
+Father`s Name: Fanny Vallejos
+Occupation: Constrution Worker
+Mather`s Name: Eva Vallejos
+Occupation: Housewife
