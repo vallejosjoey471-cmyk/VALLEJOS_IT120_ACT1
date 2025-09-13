@@ -140,3 +140,21 @@ fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B1)
 $ git commit -m "insert Profile infos"
 [VALLEJOS_B1 ebe649b] insert Profile infos
  1 file changed, 7 insertions(+), 1 deletion(-)
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B1)
+$ git status
+On branch VALLEJOS_B1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Readme.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B1)
+$ git add Readme.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B1)
+$ git commit -m "insert Branch1 commands"
+[VALLEJOS_B1 7f1b5ee] insert Branch1 commands
+ 1 file changed, 142 insertions(+)
