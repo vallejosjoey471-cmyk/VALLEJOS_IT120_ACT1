@@ -288,3 +288,41 @@ $ git commit -m "insert Branch4 commands"
  1 file changed, 21 insertions(+)
 
 
+- combine all informations in main
+ 
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (VALLEJOS_B4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (main)
+$ git checkout VALLEJOS_B1 -- Profile.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (main)
+$ git checkout VALLEJOS_B2 -- Education.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (main)
+$ git checkout VALLEJOS_B3 -- Background.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (main)
+$ git checkout VALLEJOS_B4 -- Readme.txt
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Background.txt
+        modified:   Education.txt
+        modified:   Profile.txt
+        modified:   Readme.txt
+
+
+fnvallejos@CRG-C02-23-0055 MINGW64 ~/VALLEJOS_IT120_Act1 (main)
+$ git commit -m "combine all info"
+[main 7627e59] combine all info
+ 4 files changed, 304 insertions(+), 3 deletions(-)
+
+
